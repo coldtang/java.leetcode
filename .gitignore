@@ -25,3 +25,4 @@ java.leetcode.iml
 .idea/workspace.xml
 .idea/workspace.xml
 .idea/uiDesigner.xml
+target/classes/META-INF/java.leetcode.kotlin_module

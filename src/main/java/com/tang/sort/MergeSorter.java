@@ -56,6 +56,7 @@ public class MergeSorter {
                 tmpdata[tmpPos++] = data[j++];
             }
         }
+        
         // 当左边有值，右边没值时
         while (i <= mid) {
             tmpdata[tmpPos++] = data[i++];

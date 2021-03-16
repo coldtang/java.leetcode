@@ -3,6 +3,11 @@ package com.tang.sort;
 import java.util.Arrays;
 import java.util.Comparator;
 
+/**
+ * 最小数 剑指 Offer 45. 把数组排成最小的数
+ *
+ * @author coldtang
+ */
 public class LeastNumberSorter {
     public static void main(String[] args) {
         int[] data = new int[]{3, 30, 34, 5, 32};

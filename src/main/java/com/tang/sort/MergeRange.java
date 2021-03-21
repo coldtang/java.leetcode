@@ -13,12 +13,7 @@ import java.util.Comparator;
 public class MergeRange {
     public int[][] merge(int[][] intervals) {
         //按照第一个值升序排序
-        Arrays.sort(intervals, new Comparator<int[]>() {
-            @Override
-            public int compare(int[] o1, int[] o2) {
-                return o1[0] - o2[0];
-            }
-        });
+        Arrays.sort(intervals, (o1, o2) -> o1[0] - o2[0]);
         //按照判断区间是否重叠
         ArrayList<int[]> outputs = new ArrayList<>();
         for (int i = 0; i < intervals.length; i++) {
